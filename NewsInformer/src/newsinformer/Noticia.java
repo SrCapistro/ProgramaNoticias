@@ -9,14 +9,8 @@ package newsinformer;
  *
  * @author josuecg
  */
-public class NewsInformer {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        ClienteView clienteView = new ClienteView();
-        clienteView.setVisible(true);
-    }
-    
+public class Noticia {
+    private String nombreNoticia;
+    private String datosNoticia;
+    private String fechaNoticia;
 }
